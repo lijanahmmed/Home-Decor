@@ -31,12 +31,16 @@
 
 ## Technology Used
 
-- **React.js** — Frontend library  
-- **React Router** — Client-side routing  
-- **Tailwind CSS** — Modern utility-first CSS framework  
-- **JavaScript (ES6+)**  
-- **React Hooks** — `useState`, `useEffect`, etc.  
-- **Context API (Optional)** — For global state management  
-- **React Icons** (optional)  
+- **React.js** — Frontend library
+- **React Router** — Client-side routing
+- **Tailwind CSS** — Modern utility-first CSS framework
+- **JavaScript (ES6+)**
+- **React Hooks** — `useState`, `useEffect`, etc.
+- **Context API (Optional)** — For global state management
+- **React Icons** (optional)
 
 ---
+
+## Live Link
+
+[https://home-decor-spa-web.netlify.app/](https://home-decor-spa-web.netlify.app/)
