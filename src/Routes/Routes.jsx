@@ -1,15 +1,15 @@
-import { createBrowserRouter } from 'react-router'
-import Products from '../Pages/Products'
-import Home from '../Pages/Home'
-import MainLayout from '../Layouts/MainLayout'
-import ErrorPage from '../Pages/ErrorPage'
-import Wishlist from '../Pages/Wishlist'
-import ProductDetails from '../Pages/ProductDetails'
+import { createBrowserRouter } from "react-router";
+import Products from "../Pages/Products";
+import Home from "../Pages/Home";
+import MainLayout from "../Layouts/MainLayout";
+import ErrorPage from "../Pages/ErrorPage";
+import Wishlist from "../Pages/Wishlist";
+import ProductDetails from "../Pages/ProductDetails";
 
 // named export
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: "/",
     element: <MainLayout />,
     errorElement: <ErrorPage />,
     hydrateFallbackElement: <p>Loading...</p>,
@@ -19,15 +19,15 @@ const router = createBrowserRouter([
         Component: Home,
       },
       {
-        path: '/products',
+        path: "/products",
         element: <Products />,
       },
       {
-        path: '/wishlist',
+        path: "/wishlist",
         element: <Wishlist />,
       },
       {
-        path: '/product/:id',
+        path: "/product/:id",
         element: <ProductDetails />,
       },
     ],
@@ -36,6 +36,6 @@ const router = createBrowserRouter([
   //     path: '*',
   //     element: <ErrorPage />,
   //   },
-])
+]);
 
-export default router
+export default router;
