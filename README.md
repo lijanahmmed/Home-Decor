@@ -1,16 +1,42 @@
-# React + Vite
+# Home Decor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Home Decor** is a modern web application showcasing stylish home decoration products. Users can explore items displayed in interactive cards, view product details, add favorites to a wishlist, and navigate seamlessly across multiple pages with React Router. The app is fully responsive and crafted to deliver a smooth browsing experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- **Product Card Display**  
+  Beautiful and responsive product cards showing price, category, and images.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Wishlist Feature**  
+  Save your favorite home decor items for later viewing.
 
-## Expanding the ESLint configuration
+- **Product Details Page**  
+  View detailed information about each decor item.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Routing Support**  
+  Page navigation using **React Router** (Home, Products, Wishlist, Product Details).
+
+- **Responsive Design**  
+  Works perfectly on mobile, tablet, and desktop screens.
+
+- **Search / Filter (Optional)**  
+  Quickly find items by category, color, or price range.
+
+- **Reusable Components**  
+  Clean and modular UI components for scalability.
+
+---
+
+## Technology Used
+
+- **React.js** — Frontend library  
+- **React Router** — Client-side routing  
+- **Tailwind CSS** — Modern utility-first CSS framework  
+- **JavaScript (ES6+)**  
+- **React Hooks** — `useState`, `useEffect`, etc.  
+- **Context API (Optional)** — For global state management  
+- **React Icons** (optional)  
+
+---
